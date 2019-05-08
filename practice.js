@@ -37,8 +37,8 @@ var favoriteThings = {
   food: 'burritos',
   person: 'June',
   book: 'Coyote Sunrise', 
-  movie: 'Pride & Prejudice'
-  holiday: 'Thanksgiving'
+  movie: 'Pride & Prejudice',
+  holiday: 'Thanksgiving',
 }
 
 /*
@@ -48,6 +48,9 @@ var favoriteThings = {
 
 //Code here
 
+favoriteThings.car = 'toyota',
+
+favoriteThings.brand = 'nike',
 
 
 /*
@@ -56,6 +59,10 @@ var favoriteThings = {
 */
 
 //Code here
+
+favoriteThings.food = 'Chicken Nuggets'
+
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -68,6 +75,16 @@ var favoriteThings = {
 */
 
 //Code here
+
+var backPack = {
+
+}
+
+var item = 'firstPocket' 
+
+backPack[item] = 'chapstick' 
+
+backPack.color = 'blue'
 
 /*
   After you do the above, alert your entire backPack object.
