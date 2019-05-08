@@ -16,6 +16,13 @@
 
 //Code here
 
+var me = {
+  name: 'Riley',
+  age: 24,
+}
+
+me.name
+
 ////////// PROBLEM 2 //////////
 
 /*
@@ -25,12 +32,23 @@
 
 //Code here
 
+var favoriteThings = {
+  band: 'AJR',
+  food: 'burritos',
+  person: 'June',
+  book: 'Coyote Sunrise', 
+  movie: 'Pride & Prejudice'
+  holiday: 'Thanksgiving'
+}
+
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
+
+
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -85,6 +103,20 @@ var user2 = {
 */
 
 //Code Here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
