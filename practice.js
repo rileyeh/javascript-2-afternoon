@@ -153,6 +153,10 @@ user2.email = 'bryan.smith@devmounta.in'
 
 //Code Here
 
+var methodCollection = {
+
+}
+
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
@@ -160,11 +164,25 @@ user2.email = 'bryan.smith@devmounta.in'
 
 //Code Here
 
+function alertH () {
+  alert('hello')
+}
+
+function logH () {
+  console.log('hello')
+}
+
+
+
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
+
+methodCollection.alertHello = alertH
+
+methodCollection.logHello = logH
 
 ////////// PROBLEM 6 //////////
 
@@ -175,6 +193,15 @@ user2.email = 'bryan.smith@devmounta.in'
 
 //Code Here
 
+function makePerson (name, birthday, ssn) {
+  return {
+    name: name,
+    birthday: birthday,
+    ssn: ssn,
+  }
+}
+
+makePerson ('bob', 'may8', 555555555)
 ////////// PROBLEM 7 //////////
 
 /*
@@ -183,3 +210,11 @@ user2.email = 'bryan.smith@devmounta.in'
 */
 
 //Code Here
+
+function makeCard (cardNumber, expirationDate, securityCode) {
+  return {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode,
+  }
+}
